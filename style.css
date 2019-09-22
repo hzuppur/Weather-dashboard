@@ -5,22 +5,18 @@ html, body {
 }
 
 body {
-  background-image: url("Meedia/Taust_lumi.jpg");
-  background-repeat: no-repeat;
   background-size: cover;
-  font-family: "Trebuchet MS";
-  background-position: 50% 50%;
+  font-family: "Trebuchet MS", sans-serif;
+  background: url("Meedia/backupBackground.png") no-repeat 50% 50%;
 }
 
-#vihmVideo {
+#sunsetVideo {
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   min-width: 100%;
   min-height: 100%;
   z-index: -1;
-
-
 }
 
 #kell, #kuupäev, #ilm {
