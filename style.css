@@ -1,0 +1,50 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+  background-image: url("Meedia/Taust_lumi.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Trebuchet MS";
+  background-position: 50% 50%;
+}
+
+#vihmVideo {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+
+
+}
+
+#kell, #kuupäev, #ilm {
+  color: #ffffff;
+  display: block;
+  text-align: center;
+  position: relative;
+  transform: translateY(-50%);
+  white-space: nowrap;
+  text-shadow: 2px 2px 8px #000000;
+  min-height: 70px;
+}
+
+#kell {
+  top: 40%;
+  font-size:calc(70px + 7vw);
+}
+
+#kuupäev {
+  top: 35%;
+  font-size:calc(50px + 1vw);
+}
+
+#ilm {
+  top: 35%;
+  font-size:calc(50px + 1vw);
+}
